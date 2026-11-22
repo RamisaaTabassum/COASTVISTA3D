@@ -144,11 +144,13 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="road.cpp" />
-     <ClCompile Include="sea.cpp" />
+    <ClCompile Include="scenery.cpp" />
+    <ClCompile Include="sea.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="config.h" />
     <ClInclude Include="scene.h" />
+    <ClInclude Include="scenery.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -17,7 +17,7 @@
 
 #include "config.h"
 #include "scene.h"
-
+#include "scenery.h"
 #ifndef GL_MULTISAMPLE
 #define GL_MULTISAMPLE 0x809D
 #endif
@@ -103,6 +103,10 @@ namespace {
         drawRoad();
         drawSea(g_time);
         drawMountains();
+        // Day 3 - Ramisa's Scenery
+        drawTrees();
+        drawLampPosts();
+        drawRoadsideBuildings();
 
         glutSwapBuffers();
     }

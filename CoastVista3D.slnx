@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="CoastVista3D/CoastVista3D.vcxproj" />
+  <Project Path="CoastVista3D/CoastVista3D.vcxproj" Id="e4b5d917-6863-466d-b0fe-a10ae37af33e" />
 </Solution>

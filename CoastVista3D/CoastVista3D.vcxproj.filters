@@ -21,12 +21,21 @@
     <ClCompile Include="road.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="sea.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scenery.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="config.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="scenery.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
