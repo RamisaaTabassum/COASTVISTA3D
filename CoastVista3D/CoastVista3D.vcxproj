@@ -111,12 +111,12 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;FREEGLUT_LIB_PRAGMAS=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <AdditionalIncludeDirectories>C:\Users\LENOVO\source\repos\COASTVISTA3D\packages\nupengl.core.0.1.0.1\build\native\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\packages\nupengl.core.0.1.0.1\build\native\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Users\LENOVO\source\repos\COASTVISTA3D\packages\nupengl.core.0.1.0.1\build\native\lib\x64</AdditionalLibraryDirectories>
+     <AdditionalLibraryDirectories>$(ProjectDir)..\packages\nupengl.core.0.1.0.1\build\native\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>freeglut.lib;opengl32.lib;glu32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <Manifest>
@@ -146,11 +146,13 @@
     <ClCompile Include="road.cpp" />
     <ClCompile Include="scenery.cpp" />
     <ClCompile Include="sea.cpp" />
+    <ClCompile Include="lighting.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="config.h" />
     <ClInclude Include="scene.h" />
     <ClInclude Include="scenery.h" />
+    <ClInclude Include="lighting.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
